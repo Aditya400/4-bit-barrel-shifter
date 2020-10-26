@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/Assi 3_3
+vAAC2M3H1_tb
+!s110 1602601458
+!i10b 1
+!s100 M7_=TF:5KHJ_kG<CV_S^A3
+I455dO7m2bIZM7z0U8Tgbn1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Modeltech_pe_edu_10.4a/Assi 3_4
+w1573398160
+8C:/Modeltech_pe_edu_10.4a/Assi 3_4/AAC2M3H1_tb.vp
+FC:/Modeltech_pe_edu_10.4a/Assi 3_4/AAC2M3H1_tb.vp
+L0 64
+Z2 OP;L;10.4a;61
+r1
+!s85 0
+31
+!s108 1602601457.000000
+!s107 C:/Modeltech_pe_edu_10.4a/Assi 3_4/AAC2M3H1_tb.vp|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/Assi 3_4/AAC2M3H1_tb.vp|
+!s101 -O0
+!i113 1
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@a@a@c2@m3@h1_tb
+vFullAdd4
+!s110 1602603525
+!i10b 1
+!s100 bnH4kk8aFBXUPabghRMRN3
+I1WnFi`aBDGc5P_NUKibbe0
+R0
+R1
+w1602603518
+8C:/Modeltech_pe_edu_10.4a/Assi 3_4/AAC2M3H1.v
+FC:/Modeltech_pe_edu_10.4a/Assi 3_4/AAC2M3H1.v
+L0 39
+R2
+r1
+!s85 0
+31
+!s108 1602603525.000000
+!s107 C:/Modeltech_pe_edu_10.4a/Assi 3_4/AAC2M3H1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/Assi 3_4/AAC2M3H1.v|
+!s101 -O0
+!i113 1
+R3
+n@full@add4

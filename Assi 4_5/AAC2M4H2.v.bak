@@ -1,0 +1,50 @@
+module FIFO8x9(
+  input clk, rst,
+  input RdPtrClr, WrPtrClr, 
+  input RdInc, WrInc,
+  input [8:0] DataIn,
+  output reg [8:0] DataOut,
+  input rden, wren
+);
+//signal declarations
+
+	reg [8:0] fifo_array[7:0];
+	reg [7	:0] wrptr,rdptr;
+	wire [7:0] wr_cnt, rd_cnt;
+        reg [9:0]dmuxout;
+
+always @(posedge clk) begin
+  if (rst==1)
+  begin
+    dmuxout=0;
+  end
+
+  wr_cnt=0;
+  rd_cnt=0;
+end
+
+  if( wren ) 
+    wrptr=DataIn;
+    wrptr=wrptr+WrInc;
+    wr_cnt=wr_cnt+8'b00000001;
+  end
+
+  if(rden)  
+    dmuxout=rdptr;
+    rdptr=rdptr+RdInc;
+    rd_cnt=rd_cnt+8'b00000001;
+  else if(rden==0)
+    dmuxout='zzzzzzzzz';
+  end
+
+  if(RdPtrClr) 
+    rdptr=8'b00000000;
+  end
+
+  if(WrPtrClr)
+    wrdtr=8'b00000000;
+  end
+
+  Dataout=dmuxout;
+end
+endmodule 
