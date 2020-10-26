@@ -15,7 +15,7 @@ end entity FIFO8x9;
 
 architecture RTL of FIFO8x9 is
 	--signal declarations
-	type fifo_array is array(7 downto 0) of std_logic_vector(8 downto 0);  -- makes use of VHDL’s enumerated type
+	type fifo_array is array(7 downto 0) of std_logic_vector(8 downto 0);  -- makes use of VHDLâs enumerated type
 	signal fifo:  fifo_array;
 	signal wrptr, rdptr: unsigned(2 downto 0);
 	signal en: std_logic_vector(7 downto 0);
